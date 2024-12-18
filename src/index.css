@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .inputCadastro{
+      @apply bg-transparent m-4 outline-none border border-transparent border-b-gray-100 focus:scale-150 w-56
+  }
+  .Btn_filtro{
+    @apply w-40 h-12 border rounded-lg bg-white p-2 gap-2 m-px text-center hover:bg-transparent hover:text-white cursor-pointer focus:bg-gray-600 focus:text-white
+  }
+  .CheckBox_produtos{
+    @apply 
+  }
+  .Btn_Header{
+    @apply cursor-pointer px-2
+  }
+}
