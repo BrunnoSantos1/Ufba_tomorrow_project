@@ -1,20 +1,21 @@
 import './App.css'
-import Header from "./Basic/Header/Header.jsx";
-import Section from './Basic/Section/Section.jsx';
-import Aside from './Basic/Aside/Aside.jsx';
-import Footer from './Basic/Footer/Footer.jsx';
+import Home from './Pages/Home/Home'
+import Cart from './Pages/Cart/Cart'
+import Product from './Pages/Product/Product'
+import { BrowserRouter,Routes,Route } from "react-router-dom";
 
 
 function App() {
 
   return (
     <>
-      <Header />
-      <div className='flex items-center m-6 p-30'>
-        <Aside />
-        <Section />
-      </div>
-      <Footer />
+    <BrowserRouter>
+    <Routes path="Store"> 
+      <Route index element={<Home/>}/>
+      <Route path=':Product' element={<Product/>}/>
+      <Route path=':Cart'element={<Cart/>}/>
+    </Routes>
+    </BrowserRouter>
     </>
   )
 }
