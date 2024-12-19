@@ -10,6 +10,7 @@ export default function Card() {
             <div className="p-4">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur commodi pariatur unde sunt,</p>
             </div>
+            <h1 className="text-center mb-2">preço</h1>
         </div>
     )
 

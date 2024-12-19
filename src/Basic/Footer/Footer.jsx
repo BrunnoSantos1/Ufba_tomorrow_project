@@ -1,12 +1,9 @@
 export default function Footer() {
     return (
-        <div className="p-7 border-t-2 w-full h-full m-0">
+        <div className="p-5 border-t-2 w-full h-full m-0">
             <div className=" p-6 w-full flex justify-around">
                 <div className=" p-6 text-center">
                     <ul> <label htmlFor="">Departamentos</label>
-                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
-                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
-                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
                         <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
                         <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
                         <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
@@ -14,10 +11,6 @@ export default function Footer() {
                 </div>
                 <div className=" p-6 text-center">
                     <ul> <label htmlFor="">Institucional</label>
-                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
-                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
-                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
-                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
                         <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
                         <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </li>
                     </ul>
